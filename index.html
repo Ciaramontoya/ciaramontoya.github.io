@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciara Montoya | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff8fa;
+    }
+
+    nav {
+      background-color: #542344;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      background: linear-gradient(135deg, #542344, #b76e79);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 55px 25px;
+    }
+
+    h2 {
+      color: #542344;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .skill {
+      background-color: #f1dce2;
+      color: #542344;
+      padding: 10px 18px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .project {
+      background-color: white;
+      border-left: 5px solid #b76e79;
+      padding: 22px;
+      border-radius: 8px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+      color: #542344;
+      margin-bottom: 8px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #542344;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .contact a {
+      color: #542344;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #542344;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 650px) {
+      header h1 {
+        font-size: 34px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 8px;
+      }
+
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Ciara Montoya</h1>
+    <p>Marketing Student | University of Utah</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a marketing student at the University of Utah with an interest in
+      sales, customer relationships, and using technology to improve business
+      experiences. Through my sales experience at Palm Beach Tan, I have learned
+      how to understand customer needs, recommend products and memberships, and
+      build positive relationships. I am especially interested in how artificial
+      intelligence, customer data, and social media can help businesses create
+      more personalized marketing strategies. I want to continue developing my
+      skills in information systems, data analytics, web development, and AI
+      prompt engineering. My career goal is to work in a sales or marketing role
+      where I can combine communication, creativity, and technology to help a
+      company grow.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">GitHub</span>
+      <span class="skill">Microsoft Excel</span>
+      <span class="skill">Data Analytics</span>
+      <span class="skill">AI Prompt Engineering</span>
+      <span class="skill">Sales</span>
+      <span class="skill">Customer Service</span>
+      <span class="skill">Social Media Marketing</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>AI Business Analysis</h3>
+        <p>Analyze business information and develop recommendations using AI.</p>
+      </div>
+
+      <div class="project">
+        <h3>Data Visualization</h3>
+        <p>Create a visual dashboard to clearly present business data.</p>
+      </div>
+
+      <div class="project">
+        <h3>Web Development</h3>
+        <p>Build a responsive and professional website using HTML and CSS.</p>
+      </div>
+
+      <div class="project">
+        <h3>Process Improvement</h3>
+        <p>Redesign a business process using technology and AI tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="center">
+    <h2>Resume</h2>
+    <p>Resume coming soon.</p>
+  </section>
+
+  <section id="contact" class="center contact">
+    <h2>Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:ciara.montoya@utah.edu">ciara.montoya@utah.edu</a>
+    </p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/ciara-montoya-716ba4379" target="_blank">
+        View my LinkedIn
+      </a>
+    </p>
+    <p>
+      GitHub:
+      <a href="https://github.com/Ciaramontoya" target="_blank">
+        View my GitHub
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ciara Montoya</p>
+  </footer>
+
+</body>
+</html>
